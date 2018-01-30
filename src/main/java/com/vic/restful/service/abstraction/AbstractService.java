@@ -12,7 +12,7 @@ public abstract class AbstractService implements IService {
 	public void execute() {
 		// TODO Auto-generated method stub
 		getState();
-		getData();
+		process();
 		putState();
 	}
 		
