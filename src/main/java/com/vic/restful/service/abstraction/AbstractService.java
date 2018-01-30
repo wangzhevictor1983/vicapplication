@@ -11,7 +11,9 @@ public abstract class AbstractService implements IService {
 	@Override
 	public void execute() {
 		// TODO Auto-generated method stub
-		getResult();
+		getState();
+		getData();
+		putState();
 	}
 		
 	public void setInputData(IModel inputData) {
@@ -22,8 +24,4 @@ public abstract class AbstractService implements IService {
 	public IModel getOutputData() {
 		return this.outputData;
 	}
-	
-	public abstract void getResult();
-	
-
 }
