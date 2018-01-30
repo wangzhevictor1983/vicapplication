@@ -1,5 +1,7 @@
 package com.vic.restful.model;
 
-public class SampleModel {
+import com.vic.restful.model.abstraction.IModel;
+
+public class SampleModel implements IModel {
 
 }
